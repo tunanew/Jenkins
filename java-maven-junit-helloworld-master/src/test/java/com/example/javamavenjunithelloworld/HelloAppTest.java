@@ -10,6 +10,7 @@ import static org.mockito.Mockito.*;
 import static org.powermock.api.mockito.PowerMockito.whenNew;
 
 /**
+*new line added
  * Unit test for HelloApp.
  * <p/>
  * A unit test aims to test all code and code paths of a specific class.
@@ -63,6 +64,7 @@ public class HelloAppTest {
         String[] args = {};
         HelloApp.main(args);
     }
+
 
     @Test
     public void classInstanceForCodeCoverageTest() {
